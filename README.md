@@ -33,23 +33,41 @@ The **Password Generator** is a Python-based GUI application that allows users t
 ![Image_1](https://github.com/user-attachments/assets/a4db03ae-aeda-4d81-85a9-e6da25408629)
 ![image_2](https://github.com/user-attachments/assets/f7b8ed39-d9d4-4e80-817c-77f647ff92f3)
 ![image_3](https://github.com/user-attachments/assets/f5ee212a-c454-4437-a6a0-2c60c77cfe04)
+![image_4](https://github.com/user-attachments/assets/568ee1e0-a940-4763-8a59-4b74ae01168a)
 
 
-## Installation
+## Installation and Usage
+
+To use the Password Generator GUI, follow these steps:
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/DevRohan33/Codsoft.git
-   ```
-2. **Navigate to the Project Directory**
-   ```bash
-   cd password-generator
-   ```
-3. **Run the Application:**
-  ```bash
-  python password_generator.py
-   ``` 
- 
+    ```bash
+    git clone https://github.com/DevRohan33/Password-Generate-Gui.git
+    ```
+   
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd Password-Generate-Gui
+    ```
+
+3. **Install Required Dependencies**:
+    Ensure you have Python installed. Install the required packages using:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Application**:
+    ```bash
+    python main.py
+    ```
+
+5. **Generate Your Password**:
+    - Select the character types (Uppercase, Lowercase, Numbers, Special Characters).
+    - Choose the desired password length.
+    - Click on "Generate Password" to create a new password.
+    - Click on "Copy" to copy the generated password to your clipboard.
+
+
 
 <h1 align="center">Hi 👋, I'm Rohan Parveag</h1>
 <h3 align="center">A passionate python developer from India</h3>
